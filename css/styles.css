@@ -32,10 +32,10 @@ body {
   background-color: #ffffff;
 }
 
-.section {
+/* .section {
   padding-left: 120px;
   padding-right: 120px;
-}
+} */
 
 img {
   display: block;
@@ -196,17 +196,20 @@ address {
 /*----------main-section-two-about-us-------------*/
 
 .main-section-two-about-us {
-  width: 1440px;
+  width: 1128px;
   padding: 120px 0;
+  margin-left: 156px;
+  /* background-color: #9b1010; */
 }
 
 .main-section-two-about-us-list {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  /* margin-left: 120px; */
+  /* padding-left: 156px; */
+  /* padding-right: 156px; */
 }
 
 /* .main-section-two-about-us-title {
@@ -247,12 +250,14 @@ address {
 
 /*----------main-section-three-our-team-------------*/
 .main-section-three-our-team-list {
+  width: 1128px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  margin-left: 156px;
+  /* padding-left: 156px;
+  padding-right: 156px; */
 }
 
 .main-section-three-our-team-list-li {
@@ -307,11 +312,11 @@ address {
 /*---------------main-section-four-our-portfolio-title---------------------*/
 
 .main-section-four-our-portfolio {
-  width: 1440px;
+  width: 1128px;
   padding-top: 120px;
   padding-bottom: 120px;
-  /* padding-left: 156px;
-  padding-right: 156px; */
+  margin-left: 156px;
+  /* background-color: #4d5ae5; */
 }
 
 .main-section-four-our-portfolio-title {
@@ -364,6 +369,11 @@ address {
 /* .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+} */
+
+/* .section{
+  padding-left: 120px;
+  padding-right: 120px;
 } */
 
 /*----------------------footer----------------------------*/
