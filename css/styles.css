@@ -46,17 +46,12 @@ img {
 /*----------------------header----------------------------*/
 
 .container {
-  max-width: 1440px;
-  padding: left 0;
-  padding: right 0;
-  margin: left 0;
-  margin: right 0;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
-  background: #ffffff;
-  width: 1440px;
-  min-height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -80,6 +75,7 @@ img {
 .header-link-item-a {
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 address {
@@ -135,21 +131,13 @@ address {
 }
 .header-flex {
   display: flex;
-  align-items: baseline;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-navigation {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-  padding-top: 24px;
-}
-.header .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 /*----------main-section-one-effective-solutions-------------*/
@@ -168,7 +156,7 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
-  margin-left: 482px;
+  margin: 0 auto;
 }
 .main-section-one-button {
   display: block;
@@ -180,36 +168,28 @@ address {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
-  margin: 48px 505px 185px 646px;
+  margin: 0 auto 48px;
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
+  margin-top: 48px;
 }
 .main-section-one-effective-solutions {
   background: #2e2f42;
-  width: 1440px;
-  height: 600px;
   padding: 188px 0;
 }
 
 /*----------main-section-two-about-us-------------*/
 
 .main-section-two-about-us {
-  width: 1128px;
   padding: 120px 0;
-  margin-left: 156px;
   /* background-color: #9b1010; */
 }
 
 .main-section-two-about-us-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 24px;
-  /* margin-left: 120px; */
-  /* padding-left: 156px; */
-  /* padding-right: 156px; */
 }
 
 /* .main-section-two-about-us-title {
@@ -250,14 +230,10 @@ address {
 
 /*----------main-section-three-our-team-------------*/
 .main-section-three-our-team-list {
-  width: 1128px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
-  margin-left: 156px;
-  /* padding-left: 156px;
-  padding-right: 156px; */
 }
 
 .main-section-three-our-team-list-li {
@@ -291,18 +267,12 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* margin-bottom: 32px; */
   text-align: center;
 }
 .main-section-three-our-team {
   background: #f4f4fd;
-  text-transform: capitalize;
-  width: 1440px;
-  height: 732px;
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-right: 0;
-  padding-left: 0;
 }
 
 .three-name {
@@ -312,10 +282,8 @@ address {
 /*---------------main-section-four-our-portfolio-title---------------------*/
 
 .main-section-four-our-portfolio {
-  width: 1128px;
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-left: 156px;
   /* background-color: #4d5ae5; */
 }
 
@@ -343,7 +311,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 .main-section-four-our-portfolio-list {
@@ -351,30 +318,17 @@ address {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  justify-content: center;
-  align-items: center;
 }
 .four-border {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
-  width: 360px;
-  height: 120px;
 }
 
 .main-section-four-our-portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
-/* .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
-
-/* .section{
-  padding-left: 120px;
-  padding-right: 120px;
-} */
 
 /*----------------------footer----------------------------*/
 
@@ -394,15 +348,12 @@ address {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
 }
 .footer-link-span {
   color: #f4f4fd;
 }
 .footer {
   background: #2e2f42;
-  width: 1440px;
-  height: 312px;
   padding: 100px 0px;
 }
 .footer-text {
@@ -411,7 +362,5 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 16px;
   max-width: 264px;
-  margin-left: 156px;
 }
